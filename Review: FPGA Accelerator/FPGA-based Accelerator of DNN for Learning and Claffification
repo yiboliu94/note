@@ -1,0 +1,8 @@
+This is the note to paper: FPGA-based Accelerators of Deep Learning Networks for Learning and Classification: A Review
+
+### I.C hardware Acceleration of DNN:
+CNNs are trained off-line using the backpropagation process. Therefore, the speed of feed-forward process is what matters. 、
+加速器只负责CNN的inference，所以重点关注设计CNN的inference速度。\
+GPU耗能高,不适合小型设备.latency高,不适合video streaming. 但是GPU好在throughput高\
+FGPA
+
